@@ -25,7 +25,6 @@ This project simulates a **real-world retail analytics workflow** — starting f
 - [Phase 2 — SQL Analysis](#-phase-2--sql-analysis)
 - [Phase 3 — Power BI Dashboard](#-phase-3--power-bi-dashboard)
 - [Key Business Insights](#-key-business-insights)
-- [How to Run This Project](#-how-to-run-this-project)
 - [What I Learned](#-what-i-learned)
 - [Connect With Me](#-connect-with-me)
 
@@ -126,7 +125,6 @@ retail-sales-pipeline/
 
 ### Charts Generated (8 total)
 
-> *(Add your chart screenshots here after running the Python code)*
 
 | Chart | Insight |
 |-------|---------|
@@ -501,43 +499,7 @@ Despite being the most-used shipping mode, Standard Class generates the most los
 
 ---
 
-## 🚀 How to Run This Project
-
-### Prerequisites
-```
-Python 3.8+
-MySQL 8.x + MySQL Workbench
-Power BI Desktop (free — microsoft.com/en-us/power-bi/desktop)
-```
-
-### Step 1 — Download the dataset
-Go to [Kaggle Superstore Dataset](https://www.kaggle.com/datasets/vivek468/superstore-dataset-final), download and save as `data/superstore.csv`
-
-### Step 2 — Run Phase 1 (Python)
-```bash
-pip install pandas matplotlib seaborn jupyter openpyxl
-jupyter notebook notebooks/phase1_eda.ipynb
-```
-Produces `data/superstore_clean.csv` and 8 charts in `/charts`
-
-### Step 3 — Run Phase 2 (SQL)
-```
-1. Open MySQL Workbench
-2. Run: CREATE DATABASE retail; USE retail;
-3. Import data/superstore_clean.csv into the superstore table
-4. Open sql/script.sql and run each section in order
-```
-
-### Step 4 — Open Phase 3 (Power BI)
-```
-1. Open powerbi/retail_dashboard.pbix in Power BI Desktop
-2. Update data source: localhost → retail → superstore
-3. Click Refresh — all 3 pages load with live data
-```
-
----
-
-## 📚 What I Learned
+--- 📚 What I Learned
 
 - **Data cleaning** — fixing date formats, removing duplicates, handling whitespace in Pandas
 - **Feature engineering** — creating Profit Margin %, Ship Days, Is_Loss flag, and date-based columns
@@ -552,12 +514,9 @@ Produces `data/superstore_clean.csv` and 8 charts in `/charts`
 
 ## 🔗 Connect With Me
 
-**[Your Name]**
+**[Prashant Raghav]**
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?logo=linkedin&logoColor=white)](https://linkedin.com/in/YOUR-PROFILE)
-[![Kaggle](https://img.shields.io/badge/Kaggle-Notebook-20BEFF?logo=kaggle&logoColor=white)](https://kaggle.com/YOUR-PROFILE)
-[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?logo=github&logoColor=white)](https://github.com/YOUR-USERNAME)
-
+[![LinkedIn](https://www.linkedin.com/in/rprashant876/)
 ---
 
-*Built as part of a personal data analyst portfolio. Dataset: [Sample Superstore via Kaggle](https://www.kaggle.com/datasets/vivek468/superstore-dataset-final)*
+
