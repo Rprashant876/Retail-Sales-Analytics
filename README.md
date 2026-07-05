@@ -516,7 +516,7 @@ Despite being the most-used shipping mode, Standard Class generates the most los
 
 **[Prashant Raghav]**
 
-[![LinkedIn](https://www.linkedin.com/in/rprashant876/)
+**[Linkdin]** **https://www.linkedin.com/in/rprashant876/**
 ---
 
 
